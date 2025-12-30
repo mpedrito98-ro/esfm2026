@@ -1,16 +1,3 @@
 [phps]
 version = "8.2"
-extensions = [
-  "exif",
-  "pdo_mysql",
-  "redis",
-  "sodium",
-  "opcache",
-  "gd",
-  "mbstring",
-  "curl",
-  "fileinfo",
-  "tokenizer",
-  "xml",
-  "ctype"
-]
+extensions = ["exif", "pdo_mysql", "redis", "sodium", "opcache", "gd", "mbstring", "curl", "fileinfo", "tokenizer", "xml", "ctype"]
