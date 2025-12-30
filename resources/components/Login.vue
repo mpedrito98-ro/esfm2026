@@ -2,7 +2,7 @@
     <v-container fluid>
         <v-card class="mx-auto px-6 mt-16" max-width="344">
             <v-sheet class="d-flex justify-center my-2">
-                <img src="./public/assets/images/logo.png">
+    
             </v-sheet>
             <v-form>
                 <v-text-field
