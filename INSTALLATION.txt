@@ -1,0 +1,31 @@
+#Installation
+#Clone Laragates repository
+
+#git clone https://github.com/nusagates/laragates.git project-name
+#Install dependency
+composer install
+
+#Install NPM modules
+npm install
+
+#Rename .env.example file to .env and change database configs. Then run migration
+php artisan migrate
+
+#Generate APP key
+php artisan key:generate
+
+#Add dummy data and required role & permissions
+php artisan db:seed
+
+#Start development.
+npm run dev
+
+
+-------------------------------------------------------------
+#Auth Credentials
+#An user created by default is:
+#email: nusagates@gmail.com
+#pass: 123456
+
+#Registration url: baseurl/register
+#Login url: baseurl/login
